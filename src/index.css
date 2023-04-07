@@ -14,14 +14,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
- h2{
+ /* h2{
   background-image: linear-gradient(to right, #0575E6, #fff);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text; 
   color: transparent; 
-  /* color: #fff; */
- }
+  color: #fff;
+ } */
  .go{
   /* background-image: linear-gradient(to right, #0575E6, #021B79); */
   /* -webkit-background-clip: text;
@@ -56,7 +56,21 @@ code {
 }
 p{
   font-weight: bold;
-  background: linear-gradient(to left, #fff, #0074d9);
+  background: linear-gradient(to left, #0575E6, #0575E6);
+  /* color: #fff; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+h4{
+  background: linear-gradient(to left, #fff, #fff);
+
+  /* color:#680b85; */
+  font-weight: bold;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+}
+span{
+  color: #680b85;
 }

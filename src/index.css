@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,50 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ h2{
+  background-image: linear-gradient(to right, #0575E6, #fff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text; 
+  color: transparent; 
+  /* color: #fff; */
+ }
+ .go{
+  /* background-image: linear-gradient(to right, #0575E6, #021B79); */
+  /* -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent; */
+  color: #fff;
+
+ }
+ body{
+  background-image: linear-gradient(to right , #680b85, #2980b9);
+
+
+ }
+ button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  /* text-decoration: none; */
+  color: #fff;
+  border-radius: 5px;
+  background-image: linear-gradient(to right , #2980b9, #680b85);
+  border: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background-image: linear-gradient(to bottom, #2980b9, #0074d9);
+  cursor: pointer;
+}
+p{
+  font-weight: bold;
+  background: linear-gradient(to left, #fff, #0074d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
